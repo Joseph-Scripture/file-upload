@@ -1,0 +1,42 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "A site where authenticated users can CRUD folders and files, create folder links and share",
+  "keywords": [
+    "authentication",
+    "jwt",
+    "CRUD"
+  ],
+  "homepage": "https://github.com/Joseph-Scripture/file-upload#readme",
+  "bugs": {
+    "url": "https://github.com/Joseph-Scripture/file-upload/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseph-Scripture/file-upload.git"
+  },
+  "license": "ISC",
+  "author": "Joseph Scripture",
+  "type": "module",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.5.0",
+    "@prisma/client": "^7.5.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.20.0",
+    "nodemon": "^3.1.14",
+    "prisma": "^7.5.0"
+  }
+}
